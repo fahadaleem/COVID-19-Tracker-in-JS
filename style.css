@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+
+#main-section
+{
+   text-transform: uppercase;
+   padding-top: 5%;
+   padding-bottom: 5%;
+}
+
+
+
+#left
+{
+    padding: 60px;;
+}
+
+
+#importance-section
+{
+    padding-bottom: 5%;
+}
+
+#covid-img, #doctor-img
+{
+    width: 100%;
+    height: 500px;
+}
+#importace-heading
+{
+    text-transform: uppercase;
+}
+
+#home-lable
+{
+    color:#6DE081;
+    text-transform: uppercase;
+}
+
+hr
+{
+    background-color: #6DE081;
+    height: 5px;
+}
+
+.count
+{
+    font-size: 30px;
+    color:#6DE081;
+    position: relative;
+    top:4px;
+}
+
+
+.covid-info
+{
+    margin: 0 auto;
+}
+
+select
+{
+    padding: 10px 50px 10px 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid gray; 
+    cursor: pointer;
+    width: 30%;
+    outline: none;
+    font-size: 20px;
+}
+
+.covid-icon
+{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+}
+
+#confirm
+{
+    background-color: #FBF2E9;
+}
+
+#active
+{
+    background-color: #FAECB3;
+}
+#deaths
+{
+    background-color: #F4C7C3;
+}
+#recovered
+{
+    background-color: #C8E6C9;
+}
+
+.precautions-icon
+{
+    width:100%;
+    height: 200px;
+}
+
+#total-cases
+{
+    background-color: #E3645C;
+    border: none;
+}
+#new-cases
+{
+    background-color: #6DE081;
+    border: none;
+}
+
+.count-cases
+{
+    font-family: 'roboto'
+}
+
+.display-data-green
+{
+    border: 2px solid #6DE081 !important;
+}
+
+.display-data-red
+{
+    border: 2px solid red !important;
+}
+
+
+@media screen and (max-width:768px)
+{
+    html, body {
+        overflow-x:hidden ;
+      } 
+
+      #main-section
+      {
+          padding-top: 0;
+      }
+      .display-data-green
+      {
+          margin-bottom: 20px;
+      }
+      h1
+      {
+          font-size: 26px;
+      }
+      h2
+      {
+          font-size: 24px;
+      }
+      h3
+      {
+          font-size: 22px;
+      }
+}

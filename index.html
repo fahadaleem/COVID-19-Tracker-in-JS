@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+    <!-- link css style sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-----------Fontawesome---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+
+
+    <section id="loader" class="text-center mt-4" >
+        <h1 id="loader-heading">Covid-19 Web App Loading....</h1>
+        <img src="images/loader.gif" alt="">
+        <h1 id="error-heading"></h1>
+    </section>
+
+<section id="outer-section" class="d-none">
+    <section id="main-section">   
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" id="left">
+                    <h1>Stay home, stay save from COVID-19</h1>
+                    <hr width="40%">
+                    <p class="text-lowercase">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+                        Protect yourself and others around you by knowing the facts and taking appropriate precautions</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/130-COVID-Virus.png" alt="" id="covid-img">
+                </div>
+            </div>
+           
+        </div>
+       
+    </section>
+    <section id="importance-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" id="left">
+                    <img src="images/doctor-man.svg" alt="" id="doctor-img">
+                </div>
+                <div class="col-lg-6">
+                    <h1 id="importace-heading">WHY it is important to <label id="home-lable">stay at home?</label></h1>
+                    <hr width="40%">
+
+                    <div>
+                        <p><span for="" class="count"><i class="fa fa-arrow-right" aria-hidden="true"></i> </span>Covid-19 is the fasted growing pandamic the number of corona confirmed cases worldwide has exceeded 1 crore due to rapid spreading of the virus</p>
+                        <p><span for="" class="count"><i class="fa fa-arrow-right" aria-hidden="true"></i> </span>Covid-19 easily than any other viruses.</p>
+                        <p><span for="" class="count"><i class="fa fa-arrow-right" aria-hidden="true"></i> </span>The main way COVID-19 spreads is from person-to-person contact. “Contact” is more than touching. When someone coughs or sneezes near you, droplets from their nose and mouth go into the air.</p>
+                        <p><span for="" class="count"><i class="fa fa-arrow-right" aria-hidden="true"></i> </span>Droplets from a person with COVID-19 have the virus in them. If you breathe the droplets in, the virus gets into your system.</p>
+                        <p><span for="" class="count"><i class="fa fa-arrow-right" aria-hidden="true"></i> </span>To protect yourself, you should practice social distancing. This includes staying at least 6 feet away from other people.</p>
+                        
+                    </div>
+
+                   
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <section id="tracker mt-4 pt-4">
+        <div class="container mt-4">
+            <h1 class="text-center text-uppercase mt-4">Track covid-19 here</h1>
+            <h4 class="text-center">You can check statistics of COVID-19 cases here.</h4>
+            <div class="text-center mt-4">
+            <label for="choosing-country" id="choose-country">Choose Country: </label>
+            <select name="" id="countries">
+                <option value="Global">Global</option>
+            </select>
+        </div>
+
+        <div class="covid-info">
+            <h2 class="text-center mt-4"><img src="images/world.png" id="country-flag"> <span id="country-name-display">Global</span> Statistics</h2>
+          
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="rounded border p-4 display-data-green" >
+                        <h3 class="text-center text-uppercase" id="covid-status-heading">New Covid-19 Cases</h3>
+                        <div class="d-flex justify-content-around text-center">
+                            <div>
+                                <img src="images/confirm.png" alt="" class="covid-icon">
+                                <h3>Confirmed</h3>
+                                <h4 id="new-confirmed-count" class="count-cases">76,219</h4>
+                            </div>
+                            <div class="mx-4">
+                                <img src="images/deaths.png" alt="" class="covid-icon">
+                                <h3>Deaths</h3>
+                                <h4 id="new-deaths-count" class="count-cases">76,219</h4>
+                            </div>
+                            <div>
+                                <img src="images/recovered.png" alt="" class="covid-icon">
+                                <h3>Recovered</h3>
+                                <h4 id="new-recovered-count" class="count-cases">76,219</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="rounded border  p-4 display-data-red">
+                        <h3 class="text-center text-uppercase" id="covid-status-heading">Total Covid-19 Cases</h3>
+                        <div class="d-flex justify-content-around text-center">
+                            <div>
+                                <img src="images/confirm.png" alt="" class="covid-icon">
+                                <h3>Confirmed</h3>
+                                <h4 id="confirmed-count" class="count-cases">76,219</h4>
+                            </div>
+                            <div class="mx-4">
+                                <img src="images/deaths.png" alt="" class="covid-icon">
+                                <h3>Deaths</h3>
+                                <h4 id="deaths-count" class="count-cases">76,219</h4>
+                            </div>
+                            <div>
+                                <img src="images/recovered.png" alt="" class="covid-icon">
+                                <h3>Recovered</h3>
+                                <h4 id="recovered-count" class="count-cases">76,219</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        
+        </div>
+
+        </div>
+    </section>
+
+
+    <section id="precautions" class="mt-4 container py-4">
+        <h1 class="text-center mt-4 text-uppercase">How to save from covid-19?</h1>
+        <hr width="20%" class="m-auto">
+        <div class="row text-center mt-4">
+            <div class="col-lg-3 col-md-6 col-sm-6 precaution-box">
+                <div class="rounded shadow p-2">
+                    <img src="images/129-wear-mask.png" alt="" class="precautions-icon">
+                    <h3>Wear Mask</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="rounded shadow p-2">
+                    <img src="images/125-wash-hand.png" alt="" class="precautions-icon">
+                    <h3>Wash Hands</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="rounded shadow p-2">
+                    <img src="images/126-namaste-no-hand-shake.png" alt="" class="precautions-icon">
+                    <h3>No Handshake</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="rounded shadow p-2">
+                    <img src="images/122-work-from-home-2.png" alt="" class="precautions-icon">
+                    <h3>Work at home</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <script src="app.js"></script>
+</body>
+</html>
